@@ -1,6 +1,5 @@
 # Cloud Scanner
 
-[![Build Status](https://dev.azure.com/ethomson/cloud-scanner/_apis/build/status/ethomson.cloud-scanner-build?branchName=master)](https://dev.azure.com/ethomson/cloud-scanner/_build/latest?definitionId=72&branchName=master)
 
 **Note:** this is a fork of the [Microsoft Cloud Scanner](https://github.com/Microsoft/cloud-scanner), originally built by the Microsoft Commercial Software Engineering team.  This project was forked for demonstration purposes only; please contribute changes back to the original project.
 
@@ -9,7 +8,7 @@
 
 ## Introduction
 
-Core library for Cloud Scanner project, which is a workflow for discovering and documenting cloud resources across multiple accounts or subscriptions with the intent to store, update tags, and/or perform other generic resource related operations. 
+Core library for Cloud Scanner project, which is a workflow for discovering and documenting cloud resources across multiple accounts or subscriptions with the intent to store, update tags, and/or perform other generic resource related operations.
 
 Dependent upon adapter projects such as [cloud-scanner-azure](https://github.com/Microsoft/cloud-scanner-azure) and [cloud-scanner-generic](https://github.com/Microsoft/cloud-scanner-generic) for the registry of service providers.
 
